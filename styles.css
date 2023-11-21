@@ -1,0 +1,59 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+#img {
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+button {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#descripcion_imagen {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.classification-results {
+  display: flex;
+  flex-direction: column;
+}
+
+.result-item {
+  margin-bottom: 10px;
+}
+
+.class-name {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.probability {
+  color: #555;
+}
